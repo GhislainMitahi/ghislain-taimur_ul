@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">Build a sample survey</h1>
+    <p id="description">Second exercise at freecodecamp platform when learning web development.</p>
+    <div>
+
+        <form id="survey-form">
+            <h2>Complete this form:</h2>
+            <li>
+                <ul><label id="name-label">Name:<input type="text" id="name" name="name" required
+                                     minlength="7" maxlength="20" size="50" placeholder="Enter your  name"></label></ul>
+                <ul> <label id="email-label">Email:<input type="email" id="email" name="email" required
+                                      minlength="7" maxlength="20" size="50" placeholder="Enter your  email"></label></ul>
+                <ul> <label id="number-label"> Number: <input type="number" id="number" name="number" required minlength="10" maxlength="12" size="50" placeholder="Enter a number"></label> </ul>
+                <h3>Make a choice</h3>
+                <ul> <label for="yes">
+      <input id="yes" type="radio" name="yes-no"/>Yes
+        </label> </ul>
+                <ul> <label for="no">
+      <input id="no" type="radio" name="yes-no"/>No
+              </label> </ul>
+                <ul> <label for="none">
+      <input id="none" type="radio" name="yes-no"/>None
+                  </label> </ul>
+                <h3>Make a choice</h3>
+                <ul> <label for="yes">
+      <input id="yes" type="checkbox" name="yes-no"/>Yes
+              </label> </ul>
+                <ul> <label for="no">
+      <input id="no" type="checkbox" name="yes-no"/>No
+                  </label> </ul>
+                <ul> <label for="none">
+      <input id="none" type="checkbox" name="yes-no"/>None
+      </label> </ul>
+                <h3>Any comment or suggestions?</h3>
+                <textarea rows="10" cols="50" name="text">Put your comments here</textarea>
+                <ul> <button type="submit">Submit</button> </ul>
+            </li>
+        </form>
+    </div>
+</body>
+
+</html>
